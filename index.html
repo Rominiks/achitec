@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Architecture Dynamics LLT</title>
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="74" height="24" alt="Adex home" class="logo-light" id="light">
+
+        <img src="./assets/images/logo.png" width="74" height="24" alt="Adex home" class="logo-dark" id="dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="74" height="24" alt="Adex home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link">Service</a>
+          </li>
+
+          <li>
+            <a href="#solution" class="navbar-link">Solution</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
+
+          <a href="tel:001234567890" class="contact-link">+237 6666666666</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+ <!-- 
+        - #END OF HEADER
+      -->
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')" id="bg">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Architectural Dynamics LLT.</h1>
+
+            <p class="hero-text">
+              We’re a creative company that focuses on establishing long-term relationships with customers.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#project" class="btn btn-primary">Explore Now</a>
+
+              <a href="#contact" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/h11.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/h22.png" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/h3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label" id="service">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">Services offered</p>
+
+          <h2 class="h2 section-title">
+            The service we offer is specifically designed to meet your needs.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Home Services</h3>
+
+                <p class="card-text">
+                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita neque asperiores perferendis, adipisci voluptas numquam debitis fuga repellat!
+                </p>
+
+                <a href="#contact" class="btn-text">
+                  <span class="span">Contact Us</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Commercial Services</h3>
+
+                <p class="card-text">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex aliquam rem saepe reprehenderit quasi porro non suscipit, ipsa ipsam?
+                </p>
+
+                <a href="#contact"class="btn-text">
+                  <span class="span">Contact Us</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Industrial Updates</h3>
+
+                <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta vero ab laborum, harum ducimus? Inventore, sint ducimus!
+                </p>
+
+                <a href="#contact" class="btn-text">
+                  <span class="span">Contact Us</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Market Research</h3>
+
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim voluptate nisi obcaecati rerum molestiae pariatur ut eos provident?
+                </p>
+
+                <a href="#contact" class="btn-text">
+                  <span class="span">Contact Us</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner11.jpg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">About the company</p>
+
+            <h2 class="h2 section-title">
+              We are always available to offer home, commercial and industral services.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Home services</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                      We offer serviced to our costumers such as home renuvation and cleaning of house hold equipments
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Commercial Services</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                      we offer commercial services like drawing of house plans, checking environtment for buildings etc
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Industrial Services</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                   we offer industrial services like cleaning medical wast, cleaning industral mechines etcf
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+          <button class="btrr"><a href="about.html">Read More</a></button>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label" id="solution">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner1.jpg" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Solutions we provide</p>
+
+            <h2 class="h2 section-title">
+              We make your homes a paradise to live in.
+            </h2>
+
+            <p class="section-text">
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam magni fugiat ratione corrupti, 
+             doloremque explicabo impedit natus quisquam qui voluptas dicta deleniti doloribus tenetur dolor.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Beautify your homes.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Cleaning of waste.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Washing of windows
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    And many more.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="project">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">our projects</p>
+
+          <h2 class="h2 section-title">
+            Check out some of our awesome projects We have done over the previous years.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog3.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Home projects</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iusto doloribus non praesentium 
+                    accusantium recusandae consectetur iste repellat.
+                    
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog2.jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Commercial Projects</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, totam! Ducimus voluptates quisquam dignissimos dolore, eaque sit a?
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog1.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Industrial Projects</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita minus id quasi ducimus obcaecati 
+                    perspiciatis distinctio? Necessitatibus, veniam?
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <form action="https://formspree.io/f/xknljkaq" method="POST" class="footer-form" id="contact">
+        <div class="cont" id="contact">
+        <div class="input-wrapper">
+
+          <input type="text" name="full_name" required placeholder="Your Name" aria-label="Your Name"
+            class="input-field">
+
+          <input type="email" name="email_address" required placeholder="Email" aria-label="Email"
+            class="input-field" id="loc">
+
+        </div>
+
+        <div class="input-wrapper">
+          <input type="Number" name="Number" required placeholder="Phone" aria-label="Your Name" class="input-field">
+
+          <input type="Text" name="Location" aria-label="Location" placeholder="Location " class="input-field" id="loc">
+
+        </div>
+
+        <textarea name="message" required placeholder="Message" aria-label="Message" class="input-field" id="msg"></textarea>
+
+        <button type="submit" class="btn" id="btn1">Submit</button>
+        <button type="reset" class="btn" id="btn2">Reset</button>
+
+      </form>
+    </div>
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="74" height="24" alt="Adex home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2022 Achitecture DYnamics LLT. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">Unknown@email.com</a>
+        </li>
+
+        <li>
+          <a href="tel:001234567890" class="footer-link">+999 9999 999</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="about.html" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#project" class="footer-link">Projects</a>
+        </li>
+
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Polices</p>
+
+        <p class="footer-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Earum aspernatur, eos sit suscipit saepe distinctio fugit sint veniam id laborum!
+        </p>
+
+      </div>
+
+
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
